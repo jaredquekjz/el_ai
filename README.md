@@ -1,1 +1,3 @@
-# el-ai
+The backend of the Streamlit app in nomic AI contains embeddings of most of the literature texts taught in the Singapore Sports School. The app does a vector similarity search using nomic AI engine, and feed relevant contexts to ChatGPT turbo 3.5 for writing a literary response. The app itself (in a private repo) is loaded on Streamlit community cloud.
+
+The other program files here include files to preprocess the texts, convert them to embeddings using OpenAI API and upload to Nomic AI for vector storage and processing. 
